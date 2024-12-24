@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="">
+            <select class="searchh" id="country" placeholder="enter your country " onchange="Country();"></select>
+        </div>
+        <div>
+        <select class="searchh" id="state" -placeholder="enter your state" onchange="State();"></select>
+    </div>
+    <div>
+    <select class="searchh" id="citie" placeholder="enter your city" onchange="City();"></select>
+    </div>
+    <div class="weather" id="weather">
+        <i class="fa-solid fa-cloud-rain sunicon"></i>
+        <h1 class="temp" id="temp"></h1>
+        
+         <h3 class="city" id="states"> </h3>
+
+        <div class="details">
+            
+            <div>
+                <i class="fa-sharp fa-thin fa-droplet-degree"></i>
+                <p class="humidity" id="humidity"></p>
+                <P>humidity</P>
+            </div>
+            <div>
+                <i class="fa-solid fa-temperature-snow"></i>
+                <p class="humidity" id="min"></p>
+                <P>lowest</P>
+            </div>
+            <div>
+                <i class="fa-solid fa-temperature-sun"></i>
+                <p class="humidity" id="max"></p>
+                <P>highest</P>
+            </div>
+          
+      
+            <div class="col">
+                <i class="fa-solid fa-wind" ></i>
+                <p class="wind" id="wind"></p>
+                <P>windspeed</P>
+            </div>
+           
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+
+
+</html>
